@@ -1,0 +1,4 @@
+if (context.get("age") > 18)
+  context.set("adult") = "true";
+else
+  context.set("adult") = "false";
